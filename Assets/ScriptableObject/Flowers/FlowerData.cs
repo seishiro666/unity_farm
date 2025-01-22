@@ -12,6 +12,7 @@ public class FlowerData : ScriptableObject
     public float seedRiseTime;
     public Sprite flowerIcon;
     public Sprite seedIcon;
-    public int awardForFlower;
+    public int xpAwardForFlower;
     public GameObject flowerModel;
+    public List<FlowerData> potentialSeeds;
 }
