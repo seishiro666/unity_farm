@@ -9,10 +9,13 @@ public class PrefabSpawner : MonoBehaviour
     void Start()
     {
         spawnPositions = new Vector3[]
-        {
-            new Vector3(4, -33, 38),
-            new Vector3(1, -33, 38),
-            new Vector3(9, -33, 38)
+        {   
+            new Vector3 (0, 0, 0),
+            new Vector3 (-4.5f, 0, 0),
+            new Vector3 (-9, 0, 0),
+            new Vector3 (-0, 0, 4),
+            new Vector3 (-4.5f, 0, 4),
+            new Vector3 (-9, 0, 4)
         };
 
         SpawnPrefabs();
@@ -22,7 +25,8 @@ public class PrefabSpawner : MonoBehaviour
     {
         foreach (Vector3 position in spawnPositions)
         {
-            Instantiate(prefabToSpawn, position, Quaternion.identity, spawner.transform);
+            GameObject tempBed = Instantiate(prefabToSpawn, position, Quaternion.identity, spawner.transform);
+            tempBed.transform.localPosition = position;
         }
     }
 }
