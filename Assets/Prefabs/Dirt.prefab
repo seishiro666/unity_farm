@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3216405836870706578}
   - component: {fileID: 5272391135197789693}
   - component: {fileID: 2393941175420623376}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tillage_2x1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -118,7 +118,7 @@ GameObject:
   - component: {fileID: 4896711509218163709}
   - component: {fileID: 6649423916568380655}
   - component: {fileID: 824556477695403839}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Dirt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -226,7 +226,7 @@ GameObject:
   - component: {fileID: 9199615643644585381}
   - component: {fileID: 6673643953673666048}
   - component: {fileID: 7161692398061556302}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tillage_2x1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
