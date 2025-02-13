@@ -13,9 +13,7 @@ MonoBehaviour:
   m_Name: PlayerSaveSetting
   m_EditorClassIdentifier: 
   musicOn: 0
-  musicOff: 0
   volumeOn: 0
-  volumeOff: 0
   musicLoud: 0
   volumeLoud: 0
   moneyCount: 0
