@@ -4,7 +4,9 @@ MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences:
-  - prefabToSpawn: {fileID: 7263623146951188175, guid: 982d86a08033e3e4c81b96929131a643, type: 3}
+  - bedPrefab: {fileID: 1234287756479186975, guid: 00b81b6da781fab48879924dacf03b57, type: 3}
+  - bedsGrid: {fileID: 1234287756479186975, guid: 00b81b6da781fab48879924dacf03b57, type: 3}
+  - userData: {fileID: 11400000, guid: 03ab74480a07ca4438211da1cb4f2c22, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
